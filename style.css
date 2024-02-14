@@ -118,3 +118,12 @@ section.section-nutrition ul li span {
   color: #7b284f;
   font-weight: bold;
 }
+
+@media screen and (max-width: 768px) {
+  section.section-nutrition ul li span {
+    margin-right: 120px;
+  }
+  .omlette-recipe_container .image img {
+    border-radius: 0;
+  }
+}
